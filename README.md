@@ -1,6 +1,6 @@
 #### JSend
 
-Throughout all GoMoney services, we implement [the JSend specification](https://github.com/omniti-labs/jsend) for serving API responses. More detail can be found on the _omniti-labs/jsend_ github repo. But in a nutshell, this middleware attaches a JSend object to each request with `success`, `fail`, and `error` methods that can then be invoked later on. This means our responses usually follow the same general formats.
+All GoMoney services implement [the JSend specification](https://github.com/omniti-labs/jsend) for serving API responses. In a nutshell, this middleware attaches a JSend object to each request with `success`, `fail`, and `error` methods that can then be invoked later on. This means our responses usually follow the same general formats.
 
 _Successes_
 
